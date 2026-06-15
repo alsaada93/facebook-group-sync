@@ -28,8 +28,8 @@ jobs:
 
       - name: Run sync script
         env:
-          FACEBOOK_EMAIL: ${{ secrets.FACEBOOK_EMAIL }}
-          FACEBOOK_PASSWORD: ${{ secrets.FACEBOOK_PASSWORD }}
+          FACEBOOK_EMAIL: ${{ secrets.snbh.onlin@gmail.com }}
+          FACEBOOK_PASSWORD: ${{ secrets.Wewillsee1212 }}
         run: npm start
 
       - name: Commit changes
